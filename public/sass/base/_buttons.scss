@@ -1,0 +1,31 @@
+.blue-btn {
+  @include button;
+  background-color: $color-light-blue;
+  color: $color-white;
+ 
+  &:hover {
+    background-color: lighten($color: $color-light-blue, $amount: 10%);
+    color: $color-white;
+  }
+}
+
+.white-btn {
+  @include button;
+  background-color: $color-white;
+  color: $color-light-blue;
+  border: 3px solid $color-light-blue;
+
+  &:hover {
+    border: 3px solid lighten($color: $color-light-blue, $amount: 10%);
+    color: lighten($color: $color-light-blue, $amount: 10%);
+  }
+}
+
+@media screen and (max-width: 768px) {
+}
+
+@media screen and (max-width: 640px) {
+  .hide {
+    display: none;
+  }
+}

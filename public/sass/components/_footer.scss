@@ -1,0 +1,72 @@
+footer {
+  background-color: $color-light-grey;
+  height: 80px;
+  display: grid;
+  width: 100%;
+  margin: auto;
+
+  & .content {
+    @include flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    color: $color-dark-grey;
+    font-size: 14px;
+    font-weight: 700;
+  }
+
+  & a {
+    color: $color-blue;
+    text-decoration: none;
+    padding: 0 5px;
+  }
+}
+
+#navlist {
+  @include flex;
+  justify-content: space-between;
+  padding-left: 20px;
+}
+
+#navlist li {
+  margin: 0 10px;
+  padding: 0;
+  list-style: none;
+  top: 0;
+}
+
+#navlist li, #navlist a {
+  height: 25px;
+  display: block;
+}
+
+#fb {
+  width: 25px;
+  background: url('../images/sprites.png') 0 0;
+}
+
+#tw {
+  width: 28px;
+  background: url('../images/sprites.png') -26px 0;
+}
+
+#yt {
+  width: 32px;
+  background: url('../images/sprites.png') -52px 0;
+}
+
+
+@media screen and (max-width: 400px) {
+  footer {
+    display: block;
+
+    & .content {
+      width: 90%;
+      padding-top: 30px;
+    }
+
+    & a {
+      padding: 0 3px;
+    }
+  }
+}

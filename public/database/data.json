@@ -1,0 +1,17 @@
+[
+  {
+    "heading": "First slide",
+    "text": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti",
+    "button": "Contact us"
+  },
+  {
+    "heading": "Second slide",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vesti",
+    "button": "Read more"
+  },
+  {
+    "heading": "Third slide",
+    "text": "Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium",
+    "button": "Read more"
+  }
+]
